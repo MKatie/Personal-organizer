@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Fruit_font";
+    src: url("../fonts/superfruit.ttf");
+}
+
+body{
+    font-family: arial;
+    margin: 0;
+    background: #9D331F;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% ;
+}
+#wrapper{
+    margin: 0 auto;
+}
+.image-container h2{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%; 
+}
+.image-container span{
+    color: #1E0000;
+    font-family: "Fruit_font";
+    font-style: oblique;
+    font-size: 200%;
+    letter-spacing: -1px;  
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    padding: 10px; 
+}
+#main-navigation{
+    padding: 10px;
+    background-color: #1E0000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+/*#main-navigation ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}*/
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+    /*float:right;*/
+}
+#main-navigation a{
+    color: #9D331F;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px;
+}
+#main-navigation a.main{
+    font-weight: 900;
+}
+#main-navigation a:hover{
+    color: #1E0000;
+    background-color: #9D331F;
+}
+#navigation{
+    padding: 10px;
+    background-color: #1E0000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.button{
+    background-color: #1E0000;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #9D331F;
+    font-weight: 700;
+    border-bottom: none;
+    border-top:none;
+    border-right: none;
+    border-left: 2px solid #1E0000;
+}
+.button:hover{
+    border-left: 2px solid #9D331F;
+    cursor: pointer;
+}
+.button:focus {
+    outline: 0;
+}
+#lists{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.item-list{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #BC6D4F;
+    text-align: center;
+}
+.item-list h2{
+    font-family: "Fruit_font";
+    font-size: 200%;
+}
+.task{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #9D331F;
+}
+
+.task:hover{
+    background-color: #9D331F;
+}
+
+.add-item{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.text-box{
+    width: 100%;
+}
+.text-box input{
+    margin: 5px;
+    margin-right: 0px;    
+    width: 100%;
+}
+
+.task-button{
+    margin: 5px;
+    margin-left: 0px;
+    padding: 3px;
+    background-color: #9D331F;
+    text-align: center;
+    text-decoration: none;
+    color: #1E0000;
+    font-weight: 700;
+    border: none;
+}
+.task-button:hover{
+    cursor: pointer;
+}
+.task-button:focus {
+    outline: 0;
+}
